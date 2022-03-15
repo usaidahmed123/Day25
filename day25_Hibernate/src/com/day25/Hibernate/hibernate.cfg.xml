@@ -6,7 +6,7 @@
 	<session-factory>
 
 		<!-- Connection settings -->
-		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 		<property name="dialect">org.hibernate.dialect.MYSQLDialect</property>
 				<!-- Sample MySQL URL-->
 		<property name="connection.url">mysql://localhost:3306/asd</property>
